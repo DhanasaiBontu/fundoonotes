@@ -1,0 +1,93 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: white;
+}
+
+/* Center screen */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.auth-card {
+  width: 380px;
+  background: #1e1e1e;
+  padding: 32px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Titles */
+.auth-card h1 {
+  margin-bottom: 6px;
+}
+
+.auth-card p {
+  color: #aaa;
+  margin-bottom: 18px;
+}
+
+/* Inputs */
+.auth-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #2a2a2a;
+  color: white;
+}
+
+.auth-card input::placeholder {
+  color: #777;
+}
+
+/* Button */
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-card button:hover {
+  background: #e5e5e5;
+}
+
+/* Links */
+.auth-card a {
+  color: #4da3ff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.auth-card .bottom-text {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+/* Error */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
